@@ -1,0 +1,75 @@
+body {
+   background-color: #41bac1;
+   position: relative;
+   font-family: "LatoWeb", sans-serif;
+   font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+   font-family: "Libre Franklin", sans-serif;
+   font-weight: 900;
+}
+
+a {
+   color: black;
+   font-weight: 900;
+}
+
+.site__container {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: auto;
+   margin: 50px;
+}
+
+.logo__container {
+   margin-left: 50px;
+}
+
+.logo__image {
+   width: 500px;
+   height: 500px;
+}
+
+.info {
+   margin: 150px 100px 50px 150px;
+}
+
+.supplementary__container {
+   margin: 0 50px 25px 25px;
+   text-align: right;
+}
+
+.icons {
+   display: inline-block;
+}
+
+.icon__container {
+   display: inline-block;
+   margin: 25px;
+}
+
+.icon__container a {
+   display: block;
+}
+
+.icon__image {
+   display: block;
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.hover-yellow:hover {
+   background-color: #f9e53a;
+}
+
+.hover-purple:hover {
+   background-color: #642580;
+}
