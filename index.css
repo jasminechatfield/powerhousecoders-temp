@@ -22,37 +22,32 @@ a {
 
 .site__container {
    display: grid;
-   grid-template-columns: 1fr 2fr;
-   grid-template-rows: auto;
-   margin: 50px;
+   grid-template-columns: 1fr;
+   margin: 0 10px;
 }
 
 .logo__container {
-   margin-left: 50px;
+   text-align: center;
 }
 
 .logo__image {
-   width: 500px;
-   height: 500px;
-}
-
-.info {
-   margin: 150px 100px 50px 150px;
+   width: 100%;
+   max-width: 500px;
+   max-height: 500px;
 }
 
 .supplementary__container {
-   margin: 0 50px 25px 25px;
-   text-align: right;
-   box-sizing: border-box;
+   text-align: center;
 }
 
 .icons {
    display: inline-block;
+   text-align: center;
+   margin-top: 25px;
 }
 
 .icon__container {
    display: inline-block;
-   margin: 25px;
 }
 
 .icon__container a {
@@ -103,4 +98,35 @@ button:hover {
 
 form {
    text-align: right;
+}
+
+@media only screen and (min-width: 1200px) {
+   .site__container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: auto;
+      margin: 50px;
+   }
+
+   .info {
+      margin: 150px 100px 50px 150px;
+   }
+
+   .supplementary__container {
+      margin: 0 50px 25px 25px;
+      text-align: right;
+      box-sizing: border-box;
+   }
+
+   .logo__container {
+      margin-left: 50px;
+   }
+
+   .icons {
+      margin-top: 0;
+   }
+
+   .icon__container {
+      margin: 25px;
+   }
 }
